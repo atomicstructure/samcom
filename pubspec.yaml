@@ -31,16 +31,26 @@ dependencies:
   flutter:
     sdk: flutter
 
+# Utility Packages
+  intl: any
+  url_launcher: ^6.3.0
+  http: ^1.2.2
+  logger: ^2.4.0
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+
+
+# The following adds the Cupertino Icons font to your application.
+# Use with the CupertinoIcons class for iOS style icons.
+  get: any
   cupertino_icons: ^1.0.6
   iconsax: ^0.0.8
+  get_storage: ^2.1.1
 
-  # GetX is an extra-light and powerful solution for Flutter. It combines high
-  # State Management
-  get: ^4.3.8
-  google_fonts: ^6.2.1
+# GetX is an extra-light and powerful solution for Flutter. It combines high
+# State Management
+get: ^4.6.6
+get_storage: ^2.1.1
+google_fonts: ^6.2.1
 
   
 dev_dependencies:

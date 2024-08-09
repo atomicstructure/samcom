@@ -1,21 +1,8 @@
 import 'package:flutter/material.dart';
+// import 'package:samcom/utils/constants/colors.dart';
+
+import 'app.dart';
 
 void main() {
   runApp(const App());
-}
-
-class App extends StatelessWidget {
-  const App({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: const TextTheme(),
-      ),
-      darkTheme: ThemeData.dark(),
-    );
-  }
 }
